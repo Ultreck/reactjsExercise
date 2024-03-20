@@ -1,6 +1,10 @@
 import "./App.css";
-import TreeView from "./components/treeView/TreeView";
-import menus from "./components/treeView/data";
+import ScrollIndicator from "./components/customScrollIndicator/ScrollIndicator";
+import TabTest from "./components/customTabs/TabTest";
+import LightDarkMode from "./components/ligthDarkMode/LightDarkMode";
+// import QrCodeGenerator from "./components/qrCodeGenerator/QrCodeGenerator";
+// import TreeView from "./components/treeView/TreeView";
+// import menus from "./components/treeView/data";
 // import Accordian from "./components/accordian/Accordian";
 // import ImageSlider from "./components/imageSlider/ImageSlider";
 // import LoadMoreButton from "./components/loadMoreButton/LoadMoreButton";
@@ -20,7 +24,12 @@ function App() {
 
       {/* <ImageSlider url={url} limit={limit} page={page} /> */}
       {/* <LoadMoreButton/> */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} />/ */}
+      {/* <QrCodeGenerator/> */}
+      {/* <LightDarkMode/> */}
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
+
+      <TabTest/>
     </div>
   );
 }
